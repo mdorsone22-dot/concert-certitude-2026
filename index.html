@@ -712,6 +712,9 @@
             if (password === ADMIN_PASSWORD) {
                 isAdmin = true;
                 document.getElementById('adminSection').style.display = 'block';
+                // Kache tout lòt seksyon yo
+                document.querySelector('.info-card').style.display = 'none';
+                document.querySelector('.form-section').style.display = 'none';
                 updateStats();
             }
         }
